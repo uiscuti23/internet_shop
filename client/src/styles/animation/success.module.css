@@ -1,0 +1,50 @@
+.success {
+	position: relative;
+	width: 20px;
+  height: 20px;
+}
+.success__part {
+	position: absolute;
+  background: rgb(107, 212, 133)
+}
+.part_one {
+	width: 0;
+  height: 6px;    
+  left: 10px;
+  top: 0px;
+  opacity: 0;
+  transform:rotate(45deg);	
+  transform-origin: 0 5px;
+}
+.part_two {
+	width: 0;
+	height: 6px;    
+	top: 13px;
+	left: 22px;
+	opacity: 0;
+	transform: rotate(-45deg);
+	transform-origin: 0 5px;
+}
+.success.active .part_one {
+	opacity: 1;
+  width: 18px;
+  transition: width .4s, opacity .3s;
+}
+.success.active .part_two {
+	opacity: 1;
+  width: 36px;
+  transition: width .4s .4s , opacity .3s .4s;
+}
+
+.res__row {
+	display: flex;
+}
+.res__text {
+	font-size: 18px;
+	margin-right: 2px;
+}
+.res__message {}
+.res__error {
+	font-size: 16px;
+	color: red;
+}

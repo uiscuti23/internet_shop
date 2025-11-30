@@ -1,0 +1,13 @@
+.form__item {
+	margin-bottom: 32px;
+	position: relative;
+}
+.input__label {
+	display: flex;
+	flex-direction: column;
+}
+.input__heading {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 8px;
+}

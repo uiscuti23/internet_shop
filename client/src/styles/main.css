@@ -1,0 +1,7 @@
+main {
+  flex: 1 1 auto;
+}
+
+.page__container {
+	height: 100%;
+}

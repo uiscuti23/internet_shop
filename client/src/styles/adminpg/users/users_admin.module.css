@@ -1,0 +1,110 @@
+.table {}
+.table h2 {
+	margin-bottom: 18px;
+}
+.table__row {
+	display: flex;
+	flex-direction: column;
+	margin-top: 24px;
+}
+.columns__row {
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+}
+.column {
+	display: flex;
+	align-items: center;
+	height: 48px;
+	width: 100%;
+	padding: 8px;
+	border-radius: 2px;
+	margin-bottom: 2px;
+	box-shadow: 0px 2px 18px -3px rgba(34, 60, 80, 0.16);
+	transition: box-shadow 150ms ease-in-out 0s;
+}
+.column:hover {
+	box-shadow: 0px 2px 12px 1px rgba(34, 60, 80, 0.2);
+}
+.item {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding-right: 16px;
+	margin-right: 48px;
+}
+.hidden_item {
+	display: none;
+}
+.email {
+	width: 240px;
+	display: flex;
+	letter-spacing: 1px;
+	user-select: none;
+}
+.date {
+	width: 168px;
+	user-select: none;
+}
+.day {
+	display: flex;
+	margin-right: 16px;
+}
+.time {
+	display: flex;
+	color: #999;
+}
+.role {
+	font-size: 8px;
+	padding: 0 3px;
+	margin-left: 16px;
+	border-radius: 12px;
+	color: #999;
+	user-select: none;
+}
+.role__admin {
+	border: 1px solid rgb(241, 169, 184);
+}
+.role__seller {
+	border: 1px solid rgb(218, 205, 111);
+}
+.wrapper {
+	display: flex;
+}
+.number {
+}
+.day__separator {
+	margin: 0 3px;
+}
+.time__separator {
+	margin: 0 1px;
+}
+.button {
+	display: flex;
+	justify-content: center;
+	border-radius: 16px;
+	color: #c5c5c5;
+	transition: all 150ms ease-in-out 0s;
+	user-select: none;
+}
+.button:hover {
+	transform: translateY(-1px);
+	box-shadow: 4px 4px 14px 0px rgba(34, 60, 80, 0.2);
+	color: #666;
+}
+.button.change {
+	background-color: rgb(236, 230, 241);
+	border: 1px solid rgb(237, 229, 238);
+}
+.button.delete {
+	width: 78px;
+	background-color: rgb(209, 231, 211);
+	border: 1px solid rgb(223, 233, 224);
+}
+.button.change:hover {
+	background-color: rgb(226, 209, 240);
+}
+.button.delete:hover {
+	background-color: rgb(177, 230, 182);
+}
+

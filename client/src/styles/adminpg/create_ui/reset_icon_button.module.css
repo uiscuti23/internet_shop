@@ -1,0 +1,21 @@
+.reset_button {
+	position: absolute;
+	bottom: 4px;
+	right: 6px;
+	border: 0px;
+	padding: 8px;
+	display: flex;
+	align-items: center;
+	opacity: 0;
+}
+.reset_button.show {
+	opacity: 1;
+}
+.reset_button:disabled {
+	cursor: text;
+	pointer-events: none;
+}
+.reset_button img {
+	height: 12px;
+	opacity: 0.4;
+}

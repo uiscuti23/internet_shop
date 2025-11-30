@@ -1,0 +1,8 @@
+.search_users {
+	width: 320px;
+	margin-right: 64px;
+	border: none;
+	border-bottom: 1px solid #e09664;
+	border-radius: 0;
+	font-size: 16px;
+}

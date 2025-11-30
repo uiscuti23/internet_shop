@@ -1,0 +1,28 @@
+.category-card {
+	padding: 20px 5px 18px;
+	box-shadow: rgba(30, 31, 33, 0.12) 0px 5px 25px;
+	display: flex;
+	flex-direction: column;
+	transition: color 150ms ease-in-out 0s;
+	cursor: pointer;
+}
+.category-card:link, .category-card:visited {
+	color: #232323;
+}
+.category-card:hover, .category-card:active {
+	color: #d36c27;
+}
+.category-card__img {
+	width: 100%;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+}
+.category-card p {
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	text-transform: capitalize;
+	white-space: nowrap;
+}

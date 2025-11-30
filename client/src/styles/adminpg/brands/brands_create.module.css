@@ -1,0 +1,17 @@
+.create_type {
+	width: 480px;
+	/* padding: 24px; */
+}
+.type__form {
+	display: flex;
+	flex-direction: column;
+}
+.file_name {
+	display: flex;
+	align-items: center;
+}
+.button__row {
+	display: flex;
+	align-items: center;
+	margin-top: 8px;
+}

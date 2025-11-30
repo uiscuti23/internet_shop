@@ -1,0 +1,12 @@
+.type_page {
+	padding-top: 12px;
+}
+.type_page h2 {
+	font-size: 28px;
+	display: flex;
+	align-items: center;
+}
+.type_heading {
+	display: flex;
+	justify-content: space-between;
+}

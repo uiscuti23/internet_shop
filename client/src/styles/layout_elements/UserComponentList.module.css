@@ -1,0 +1,19 @@
+.list {
+	position: absolute;
+	top: 24px;
+	left: -40px;
+	display: flex;
+	flex-direction: column;
+	width: 120px;
+	padding-top: 8px;
+}
+.item {
+	height: 32px;
+	border: 1px solid rgb(193, 227, 233);
+	user-select: none;
+	padding: 4px 8px;
+	background-color: #dae9d7;
+}
+.item:not(:last-child) {
+	border-bottom: none;
+}

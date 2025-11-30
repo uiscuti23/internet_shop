@@ -1,0 +1,7 @@
+.error_string {
+	position: absolute;
+	bottom: -24px;
+	left: 0;
+	font-size: 14px;
+	color: red;
+}

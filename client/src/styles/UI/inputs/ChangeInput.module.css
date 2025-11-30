@@ -1,0 +1,12 @@
+.change__input {
+	height: 32px;
+	width: 100%;
+	font-size: 16px;
+	padding: 0 24px 4px 0;
+	border: none;
+	border-bottom: 1px solid #cacaca;
+	border-radius: 0;
+}
+.hide__input.change__input:disabled {
+	border-bottom: 1px solid transparent;
+}

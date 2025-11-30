@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #232323;
+  background-color: #fff;
+}
+body._lock {
+	overflow: hidden;
+}
+body._lock .lock__element {
+	padding-right: 17px;
+}
+
+
+#root {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  /* height: 1px; */
+	display: flex;
+	/* background-color: #343a40; */
+}
+:root {
+  --header-color: rgb(173, 181, 216);
+  --footer-color: rgb(8, 19, 70);
+  --active-link: dodgerblue;
+  --white-color: #fff;
+}
+
+button {
+  padding: 8px 15px;
+  border: 1px solid goldenrod;
+  border-radius: 2px;
+}
+input {
+  padding: 6px 1px;
+  border: 1px solid goldenrod;
+  border-radius: 4px;
+}
+h1 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.App {
+	flex: 1;
+  min-height: 100%;
+}
+
+.layout {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100%;
+}
+
+
+

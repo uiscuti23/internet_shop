@@ -1,0 +1,33 @@
+.user_filter {
+	
+}
+.form__row {
+	display: flex;
+	flex-direction: column;
+}
+.search__row {
+	display: flex;
+	height: 32px;
+	margin-bottom: 24px;
+}
+
+.radio__row {
+	display: flex;
+	flex: 0 0 40%;
+}
+.buttons__row {
+	display: flex;
+}
+.search_button {
+	width: 80px;
+	height: 32px;
+	margin-right: 64px;
+	border: 1px solid #e09664;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.reset_button {
+	height: 32px;
+	border: 1px solid #ccd1eb;
+	border-radius: 16px;
+}
